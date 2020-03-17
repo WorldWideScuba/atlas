@@ -1,6 +1,6 @@
 CREATE TABLE appuser.application_user (
 	user_identifier serial Primary Key,
-	user_country_code int NOT NULL REFERENCES world.country (country_code),
+	user_country_code int NOT NULL REFERENCES world.zone (zone_id),
 	username varchar(100) NOT NULL,
 	user_password varchar(100) NOT NULL,
 	user_email varchar(100) UNIQUE NOT NULL,

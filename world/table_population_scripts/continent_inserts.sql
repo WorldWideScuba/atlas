@@ -5,4 +5,5 @@ values (1,'Africa', now() at time zone 'utc', 'Chris' ),
 (4,'Australia', now() at time zone 'utc', 'Chris' ),
 (5,'Europe', now() at time zone 'utc', 'Chris' ),
 (6,'North America', now() at time zone 'utc', 'Chris' ),
-(7, 'South America', now() at time zone 'utc', 'Chris' )
+(7, 'South America', now() at time zone 'utc', 'Chris' ),
+(8, 'None', now() at time zone 'utc', 'Chris')
